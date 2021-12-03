@@ -58,5 +58,6 @@
   "store/orderquote.create.placeholder.quotationName": "Quotation name",
   "store/orderquote.create.label.quotationName": "Name",
   "store/orderquote.create.characterLeft": "{count, plural, =99{character left}=100{100 characters limit reached}other{characters left}}",
-  "store/orderquote.error.notAuthenticated": "User not authenticated"
+  "store/orderquote.error.notAuthenticated": "User not authenticated",
+  "store/orderquote.linkName": "Order quote"
 }

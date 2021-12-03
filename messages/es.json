@@ -58,5 +58,6 @@
   "store/orderquote.create.placeholder.quotationName": "Nombre de la Cotización",
   "store/orderquote.create.label.quotationName": "Nombre",
   "store/orderquote.create.characterLeft": "{count, plural, =99{caractere disponible}=100{Se alcanzó el límite de 100 caracteres}other{caracteres disponibles}}",
-  "store/orderquote.error.notAuthenticated": "Usuario no autenticado"
+  "store/orderquote.error.notAuthenticated": "Usuario no autenticado",
+  "store/orderquote.linkName": "Order quote"
 }

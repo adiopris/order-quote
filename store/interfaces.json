@@ -16,5 +16,11 @@
   },
   "view": {
     "component": "QuoteView"
+  },
+  "oq-link": {
+    "component": "OrderQuoteLink"
+  },
+  "my-account-page.order-quote-page": {
+    "component": "OrderQuoteListAccount"
   }
 }
