@@ -39,6 +39,13 @@ Once declared as a [Peer Dependency](https://vtex.io/docs/concepts/peerdependenc
 
 The new routes already contain a default template with all blocks automatically exported by the `orderquote` app, meaning that the Order Quote pages are ready to be rendered and no further actions are required from you.
 
+## Adding Order Quote to the My account menu
+ Add these blocks to blocks.json file
+ 
+  "oq-link": {},
+  
+  "my-account-page.order-quote-page": {}
+
 ## Customization
 
 In order to apply CSS customizations in this and other blocks, follow the instructions given in the recipe on [Using CSS Handles for store customization](https://vtex.io/docs/recipes/style/using-css-handles-for-store-customization).
