@@ -17,10 +17,10 @@
   "view": {
     "component": "QuoteView"
   },
-  "oq-link": {
+  "my-account-link.order-quote": {
     "component": "OrderQuoteLink"
   },
-  "my-account-page.order-quote-page": {
+  "my-account-page.order-quote": {
     "component": "OrderQuoteListAccount"
   }
 }
