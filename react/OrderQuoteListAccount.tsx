@@ -1,23 +1,18 @@
-import type, { FC } from 'react'
-import React, { Fragment } from 'react'
+import React, { Fragment, FC } from 'react'
 import { Route } from 'vtex.my-account-commons/Router'
-import QuoteList from "./QuoteList";
 
-
+import QuoteList from './QuoteList'
 
 const OrderQuoteListAccountWrapper: FC = (props: any) => {
+  window.location.href = '/orderquote'
 
-  window.location.href ='/orderquote'
-
-  return (
-    <QuoteList {...props}/>
-)
+  return <QuoteList {...props} />
 }
 
 const OrderQuoteListAccount = () => (
   <Fragment>
     <Route exact path="/order-quote" component={OrderQuoteListAccountWrapper} />
-</Fragment>
+  </Fragment>
 )
 
 export default OrderQuoteListAccount

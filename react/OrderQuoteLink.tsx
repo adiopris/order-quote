@@ -3,7 +3,7 @@ import { defineMessages, useIntl } from 'react-intl'
 
 const messages = defineMessages({
   orderQuoteLinkText: {
-    id: "store/orderquote.linkName",
+    id: 'store/orderquote.linkName',
   },
 })
 
