@@ -4,8 +4,6 @@ import { Route } from 'vtex.my-account-commons/Router'
 import QuoteList from './QuoteList'
 
 const OrderQuoteListAccountWrapper: FC = (props: any) => {
-  window.location.href = '/orderquote'
-
   return <QuoteList {...props} />
 }
 
