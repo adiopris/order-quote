@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- Order Quote link in My Account
 - Quality engineering actions
 
 ## [1.5.4] - 2021-08-24
